@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Login</title>
+
+    <link rel="stylesheet" href="/Group Projects/group_signup.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body class="signup">
+
+    <section>
+        <a href="/FirstPage/accounts.html"><button class="back_firstpage">Back To Accounts</button></a>
+
+    </section>
+
+    <section>
+        <img class="triangle" src="/images/Triangle with Circle.png" loading="lazy"/>
+        <img class="square" src="/images/Double Square.png" loading="lazy"/>
+        <img class="Circle" src="/images/Circle with Triangle.png" loading="lazy"/>
+        <img class="square2" src="/images/Double Square.png" loading="lazy"/>
+    </section>
+
+    <h1 class="group">GROUP SIGN UP</h1>
+
+    <section>
+        <form action="form_control" class="signup_form">
+            <label for="courses" class="courses">Which Course Do You Do?
+                <select name="courses" id="courses">
+                    <option value="Computer Science">Computer Science (CS)</option>
+                    <option value="Information Technology">Information Technology (IT)</option>
+                </select>
+            </label>
+
+            <label for="groupno" class="groupno_position">Group Number
+                <input type="number" class="groupno" id="no" name="groupno">
+            </label>
+
+            <label for="semester" class="semester">Semester
+                <select name="semester" id="semester">
+                    <option value="JAN-APRIL">JAN-APRIL Semester</option>
+                    <option value="MAY-AUGUST">MAY-AUGUST Semester</option>
+                    <option value="SEPT-DEC">SEPT-DEC Semester</option>
+                </select>
+            </label>
+
+            <label for="year" class="year">Year
+                <select name="year" id="year">
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2020">2021</option>
+                    <option value="2020">2022</option>
+                    <option value="2020">2023</option>
+                    <option value="2020">2024</option>
+                    <option value="2020">2025</option>
+                    <option value="2020">2026</option>
+                    <option value="2020">2027</option>
+                    <option value="2020">2028</option>
+                    <option value="2020">2029</option>
+                    <option value="2020">2030</option>
+
+                </select>
+            </label>
+
+            
+
+            <label for="password" class="pass_position">Password
+                <input type="password" class="password" id="pass" name="password" placeholder="*********">
+            </label>
+    
+        </form>
+
+        <a href="/Group Projects/group_signup.html"><button class="signup_butt" type="submit"><span class="sign">Sign Up</span></button></a>
+    </section>
+
+    <section>
+        <hr class="Line1">
+        <h4 class="or">Or</h4>
+        <hr class="Line2">
+    </section>
+
+    <section>
+        <h4 class="have_account">Already have an account?<a href="/Group Projects/group_login.html" class="login"> Log In</a></h4>
+    </section>
+</body>
+</html>
