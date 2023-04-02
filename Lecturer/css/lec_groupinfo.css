@@ -108,7 +108,7 @@ body{
 }
 .topnav2{
     position: absolute;
-    left: 200px;
+    left: 250px;
     width: 1395px;
     line-height: 1px;
     background-color: white;
@@ -168,8 +168,9 @@ body{
     width: 20rem;  
     padding: 15px;
     position: relative;
-    left: 10px;
+    left: 50px;
     font-family: 'itim';
+    top: 10px;
  
 }
 
@@ -204,8 +205,8 @@ body{
 }
 
 #color{
-    background-color: #1A7FC1;
-    color: white;
+    background-color: #ddd;
+    color: black;
 }
 .btn-btn:hover{
     background-color: #1A7FC1;
