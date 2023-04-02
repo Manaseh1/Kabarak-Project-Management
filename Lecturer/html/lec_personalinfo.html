@@ -9,18 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>Personal Info</title>
 </head>
-<body>
+<body class="container">
     <!--SideBar-->
-    <div class="sidenav">
-        <h3 class="heading1">Project Management</h3>
-        <span class="personal_info">NAME: JOHN DOE <br> <br> REG_NO: CS/MG/0866/09/20</span>
-       
-        <a href="/Lecturer/html/lec_personal.html">Home</a>
-        <a href="#download">Download Document</a>
-        <a href="#link">Link</a>
-        <hr class="side">
+    <div class="row flex-nowrap d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 px-sm-2 px-0 sidenav">
+        <span class="personal_info">Name:Lorraine Wambui <br> Reg.No: CS/MG/0866/09/20</span>
+        <a href="/Group Projects/group_login.html">Home</a>
+        <a href="#download">Upload Document</a>
+        <a href="#link">Project Link</a>
+        <a href="/Lecturer/html/lec_personal.html Projects/group_login.html">Sign Out</a> 
     </div>
 
     <div class="topnav">
@@ -36,131 +35,164 @@
         </p>
     </div>
 
-    <div class="card-container">
-        <div class="row col1">
-            <div class="column">
-              <div class="card">
-                <img class="icon1" src="/images/icon1.png">
-                <p class="step1">Step One: Concept Paper</p>
-                <button class="download" type="submit">DOWNLOAD</button>
-
-                <form action="POST" class="form1">
-                    Approved<input type="radio" class="radio" name="radio">
-                    Disapproved<input type="radio" class="radio" name="radio">
-
-                    <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-
-                    <button type="submit" class="btn-btn">Post</button>
-                </form>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <img class="icon2" src="/images/icon2.png">
-                <p class="step2">Step Two: Chapter 1</p>
-                <p>Introduction</p>
-                <button class="download2" type="submit">DOWNLOAD</button>
-
-                <form action="POST" class="form2">
-                    <label for="radio" class="approved">Approved</label>
-                    <input type="radio" class="radio2" name="radio">
-                    <label for="radio" class="disapproved">Disapproved</label>
-                    <input type="radio" class="radio2" name="radio">
-
-                    <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-
-                    <button type="submit" class="btn-btn">Post</button>
-                </form>
-              </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img class="icon2" src="/images/icon3.png">
-                    <p class="step2">Step Three: Chapter 2</p>
-                    <p>Literature Review</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img class="icon2" src="/images/icon1.png">
+                    <p class="card-title">Step One</p>
+                    <p class="card-text">Concept Paper</p>
                     <button class="download2" type="submit">DOWNLOAD</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                          <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                          </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
+                      </form>
+                </div>
+            </div>
+        </div>
 
-                    <form action="POST" class="form2">
-                        <label for="radio" class="approved">Approved</label>
-                        <input type="radio" class="radio2" name="radio">
-                        <label for="radio" class="disapproved">Disapproved</label>
-                        <input type="radio" class="radio2" name="radio">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img class="icon2" src="/images/icon2.png">
+                    <p class="card-title">Step Two: CHAPTER 1</p>
+                    <p class="card-text">Introduction</p>
+                    <button class="download2" type="submit">DOWNLOAD</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                          <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                          </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
+                      </form>
+                </div>
+            </div>
+        </div>
 
-                        <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img class="icon2" src="/images/icon3.png">
+                    <p class="card-title">Step Three: CHAPTER 2</p>
+                    <p class="card-text">Literature Review</p>
+                    <button class="download2" type="submit">DOWNLOAD</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                          <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                          </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
+                      </form>
+                </div>
+            </div>
+        </div>
 
-                    <button type="submit" class="btn-btn">Post</button>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img class="icon2" src="/images/icon4.jpg">
+                    <p class="card-title">Step Four: CHAPTER 3</p>
+                    <p class="card-text">Research Methodology</p>
+                    <button class="download2" type="submit">DOWNLOAD</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                        </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="row col2">
-            <div class="column">
-                <div class="card">
-                    <img class="icon2" src="/images/icon4.jpg">
-                    <p class="step2">Step Four: Chapter 3</p>
-                    <p>Research Methodology</p>
-                    <button class="download2" type="submit">DOWNLOAD</button>
 
-                    <form action="POST" class="form2">
-                        <label for="radio" class="approved">Approved</label>
-                        <input type="radio" class="radio2" name="radio">
-                        <label for="radio" class="disapproved">Disapproved</label>
-                        <input type="radio" class="radio2" name="radio">
-
-                        <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-
-                    <button type="submit" class="btn-btn">Post</button>
-                    </form>
-  
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
                     <img class="icon2" src="/images/icon5.jpg">
-                    <p class="step2">Step Four: Chapter 4</p>
-                    <p>Implentation</p>
+                    <p class="card-title">Step Five: CHAPTER 4</p>
+                    <p class="card-text">Implementation</p>
                     <button class="download2" type="submit">DOWNLOAD</button>
-
-                    <form action="POST" class="form2">
-                        <label for="radio" class="approved">Approved</label>
-                        <input type="radio" class="radio2" name="radio">
-                        <label for="radio" class="disapproved">Disapproved</label>
-                        <input type="radio" class="radio2" name="radio">
-
-                        <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-
-                    <button type="submit" class="btn-btn">Post</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                        </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
                     </form>
                 </div>
             </div>
-            <div class="column">
-                <div class="card">
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
                     <img class="icon2" src="/images/icon6.png">
-                    <p class="step2">Step Five: Chapter 5</p>
-                    <p>Conclusion</p>
+                    <p class="card-title">Step Six: CHAPTER 5</p>
+                    <p class="card-text">Conclusion And Recommendation</p>
                     <button class="download2" type="submit">DOWNLOAD</button>
-
-                    <form action="POST" class="form2">
-                        <label for="radio" class="approved">Approved</label>
-                        <input type="radio" class="radio2" name="radio">
-                        <label for="radio" class="disapproved">Disapproved</label>
-                        <input type="radio" class="radio2" name="radio">
-
-                        <label for="w3review" class="comment_label">Comments:</label>
-                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-
-                    <button type="submit" class="btn-btn">Post</button>
+                    <form>
+                        <div class="mb-1 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Approved</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Disapproved</label>
+                        </div>
+                        <div class="input-group" id="comments">
+                            <span class="input-group-text" id="color">Comments</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button class="post" type="submit">POST</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     
 </body>
 </html>

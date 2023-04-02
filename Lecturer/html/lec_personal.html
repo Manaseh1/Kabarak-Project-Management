@@ -9,43 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <title>Personal Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Group Projects</title>
 </head>
+
 <body>
+    
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">KABARAK PROJECT MANAGEMENT</a>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <img src="/images/icons8-bell-24.png" class="notif">
-                    <a class="nav-link" id="contact" href="#">Notifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="logout" href="/Lecturer/html/lec_login.html">Log Out</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; position: relative; left: 670px;">PROJECTS SUBMITTED</a>
         </div>
     </nav>
-
-    <table id="projects">
-        
-        <tr>
-            <th>Reg.No</th>&nbsp;
-            <th>Title of Project</th>&nbsp;
-            <th>Brief Decription</th>&nbsp;
-            <th>Date</th>&nbsp;
-            
-        </tr>
-
-        <tr> <!--Needs to be a loop-->
-            <td> <a href="/Lecturer/html/lec_personalinfo.html">CS/MG/O866/09/20</a></td>
-            <td>Dairy Farming Management</td>
-            <td>A web based application to manage the animals and sales in a dairy farm</td>
-            <td>29/05/2023</td>
-            </a>
-        </tr>
-    </table>
+    <div class="container- mt-5">
+    <table class="table table-striped">
+        <thead>
+            <tr class="header">
+                <th scope="col">#</th>
+                <th scope="col">Reg.No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr class="content">
+            <th scope="row" style="color: black;">1</th>
+            <td><a href="/Lecturer/html/lec_personalinfo.html">CS/MG/0866/09/20</a></td>
+            <td>Lorraine Wambui</td>
+            <td>29/03/2023</td>
+          </tr>
 
    
     <!--Social accounts - Fixed to the right-->
@@ -75,8 +66,8 @@
                 <img src="/images/icons8-github.gif" alt="Github" loading="lazy" class="socicon"/>
             </a>
         </div>
-        <p class="copy">&copy; Copyright 2023</p>
     </footer>
+    </div>
 
     <!--Website scripts-->
 
@@ -85,6 +76,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
 </body>
 </html>

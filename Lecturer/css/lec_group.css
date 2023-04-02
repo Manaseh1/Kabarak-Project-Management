@@ -1,29 +1,16 @@
 body{
     font-family: 'itim';
+    overflow-x: hidden;
 }
 .navbar{
     position: absolute;
-    width: 1600px;
     height: 90px;
     left: 0px;
+    width: 100%;
     top: 0px;
     background: #1A7FC1;
 }
 
-.navbar-brand{
-    color: white;
-    position: absolute;
-    top: 20px;
-    font: bold;
-}
-
-.navbar-nav{
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    left: 150px;
-   
-}
 
 #contact{
     display: flex;
@@ -82,6 +69,10 @@ table {
     top: 100px;
 }
 
+.header{
+    background-color: #1A7FC1;
+}
+
 table td {
    border:1px solid #000;
 }
@@ -99,13 +90,12 @@ table td {
   
 #projects tr:nth-child(even){background-color: #f2f2f2;}
   
-#projects tr:hover {background-color: #ddd;}
+.content:hover {background-color: #ddd;}
   
 #projects th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
     color: white;
 }
 
@@ -137,13 +127,6 @@ footer{
     top: 35px;
 }
 
-.notif{
-    position: relative;
-    left: 1035px;
-    top: 5px;
-    width: 1.5rem;
-    height: 1.5rem;
-}
 
 /* .scroll-up{
     position: fixed;
