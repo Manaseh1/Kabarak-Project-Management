@@ -1,19 +1,22 @@
-.first{
+.container{
     background-image: url(/images/background3.avif);
     font-family: 'Itim', cursive;
 }
 
 .intro{
     font-style: normal;
+    position: relative;
+    top: 150px;
     font-weight: 200;
     font-size: 30px;
     line-height: 58px;
-    text-align: center;
+    
     color: white;
 }
 
 .choice{
     color: #1A7FC1;
+    text-align:justify;
 }
 
 #personal{
@@ -21,13 +24,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 193px;
+   
     gap: 20px;
 
     position: absolute;
     width: 490px;
     height: 68px;
-    left: 540px;
     top: 400px;
     background: #1A7FC1;
     border-radius: 15px;
@@ -40,14 +42,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 193px;
+   
     gap: 20px;
 
     position: absolute;
     font-family: 'itim';
     width: 490px;
     height: 68px;
-    left: 540px;
     top: 500px;
 
     background: #1A7FC1;
@@ -60,13 +61,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 193px;
+    
     gap: 20px;
 
     position: absolute;
     width: 490px;
     height: 68px;
-    left: 540px;
     top: 600px;
     background: #1A7FC1;
     border-radius: 15px;
@@ -97,7 +97,6 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 100px;
     top: 0px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -106,7 +105,6 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 1245px;
     top: 4px;
 }
 
@@ -114,7 +112,6 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 1200px;
     top: 550px;
 }
 
@@ -122,7 +119,6 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 100px;
     top: 550px;
     transform: rotate(-180deg);
 
