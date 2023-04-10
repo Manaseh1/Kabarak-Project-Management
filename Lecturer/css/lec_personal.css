@@ -1,0 +1,158 @@
+body{
+    font-family: 'itim';
+}
+.navbar{
+    position: absolute;
+    width: 1600px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #1A7FC1;
+}
+
+.navbar-brand{
+    color: white;
+    position: absolute;
+    top: 20px;
+    font: bold;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 150px;
+   
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    color: white;
+
+    position: absolute;
+    width: 277px;
+    height: 36px;
+    left: 1100px;
+    top: 0px;
+}
+
+#contact:hover{
+    color: black;
+}
+
+#logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 1210px;
+    border: 4px white solid;
+    padding: 2px 35px ;
+    border-radius: 30px;
+    top: 0px;
+    white-space: nowrap;
+    color: white;
+}
+
+#logout:hover{
+    color: black;
+}
+
+.nav-item{
+    color: white;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+table {
+    border-collapse:collapse;
+    position: absolute;
+    top: 100px;
+}
+
+table td {
+   border:1px solid #000;
+}
+
+#projects {
+    font-family:'itim';
+    border-collapse: collapse;
+    width: 1580px;
+}
+  
+#projects td, #projects th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#projects tr:nth-child(even){background-color: #f2f2f2;}
+  
+#projects tr:hover {background-color: #ddd;}
+  
+#projects th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 43%;
+    bottom: 0%;
+}
+
+.socicon{
+    width: 2rem;
+    height: 2rem;
+}
+
+footer{
+    width: 1550px;
+    text-align: center;
+    
+    position: relative;
+    top: 650px;
+    left: 0px;
+}
+
+.copy{
+    position: relative;
+    left: -90px;
+    top: 35px;
+}
+
+.notif{
+    position: relative;
+    left: 1035px;
+    top: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* .scroll-up{
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+} */
+
+/* .up-arrow{
+    width: 3rem;
+    height: 3rem;
+} */

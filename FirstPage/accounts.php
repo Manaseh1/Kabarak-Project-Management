@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <link rel="stylesheet" href="accounts.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body class="first">
+    <section>
+        <img class="triangle" src="../images/Triangle with Circle.png" loading="lazy"/>
+        <img class="square" src="../images/Double Square.png" loading="lazy"/>
+        <img class="Circle" src="../images/Circle with Triangle.png" loading="lazy"/>
+        <img class="square2" src="../images/Double Square.png" loading="lazy"/>
+    </section>
+
+    <section class="intro">
+        <h1>WELCOME TO</h1>
+        <h2>KABARAK PROJECT MANAGEMENT</h2>
+        <h3 class="choice">Choose your account</h3>
+    </section>
+
+    <section class="butt">
+        <a href="../login.php"><button class="choose" id="personal">Login</button></a>
+        <a href="../signup.php"><button class="choose" id="group">Signup</button></a>
+        <!-- <a href="/Lecturer/html/lec_login.html"><button class="choose" id="lec">LECTURER</button></a> -->
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,403 @@
+.login{
+    background-image: url(/images/background3.avif);
+    font-family: 'Itim', cursive;
+}
+.triangle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.square{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1245px;
+    top: 4px;
+}
+
+.Circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    top: 550px;
+}
+
+.square2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 550px;
+    transform: rotate(-180deg);
+
+}
+
+.lec{
+    position: absolute;
+    width: 416px;
+    height: 58px;
+    left: 650px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+/* identical to box height */
+
+    color: #FFFFFF;
+
+}
+
+.login_form{
+    color: white;
+}
+
+.reg_position{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#reg{
+    box-sizing: border-box;
+    color: white;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 205px 13px 18px;
+    gap: 15px;
+
+    width: 507px;
+    height: 60px;
+
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.name_position{
+    position: absolute;
+    left: 550px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#name{
+    box-sizing: border-box;
+    color: white;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 205px 13px 18px;
+    gap: 15px;
+
+    width: 507px;
+    height: 60px;
+
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pass_position{
+    position: absolute;
+    left: 550px;
+    top: 380px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#pass{
+    box-sizing: border-box;
+    color: white;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 205px 13px 18px;
+    gap: 15px;
+
+    width: 507px;
+    height: 60px;
+
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.courses{
+    position: absolute;
+    left: 550px;
+    top: 170px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 205px 13px 18px;
+    gap: 15px;
+    width: 500px;
+    height: 60px;
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: 'itim';
+}
+
+#courses{
+    position: absolute;
+    left: 200px;
+    font-family: 'itim';
+}
+.login_butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 193px;
+    gap: 20px;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 595px;
+    top: 550px;
+    background: #1A7FC1;
+    border-radius: 15px;
+    color: white;
+}
+
+.login_butt:hover{
+    background-color: bisque;
+    color: #000;
+}
+
+.log{
+    width: 84px;
+    height: 38px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 29px;
+    line-height: 38px;
+/* identical to box height */
+
+/* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.Line1{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 645px;
+    top: 630px;
+    border: 2px solid #FFFFFF;
+}
+
+.or{
+    position: absolute;
+    width: 27px;
+    height: 29px;
+    left: 775px;
+    top: 593px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.Line2{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 830px;
+    top: 630px;
+    border: 2px solid #FFFFFF;
+}
+
+.no_account{
+    position: absolute;
+    width: 321px;
+    height: 29px;
+    left: 665px;
+    top: 650px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+}
+
+.sign_up{
+    position: absolute;
+    width: 321px;
+    height: 29px;
+    left: 200px;
+    top: 0px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #1A7FC1;
+}
+
+.sign_up:hover{
+    color: white;
+}
+
+/* .back_ToGroup{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 193px;
+    gap: 20px;
+    position: absolute;
+    height: 53px;
+    width: 322px;
+    left: 306px;
+    top: 35px;
+    background: #1A7FC1;
+    border-radius: 15px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#groupname{
+font-family: 'Itim';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.back_ToLec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 193px;
+    gap: 20px;
+    position: absolute;
+    width: 322px;
+    height: 53px;
+    left: 813px;
+    top: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: 'itim';
+    background: #1A7FC1;
+    border-radius: 15px;
+}
+
+.back_ToGroup:hover{
+    color: black;
+    background-color: bisque;
+
+}
+
+.back_ToLec:hover{
+    color: black;
+    background-color: bisque;
+} */
+
+.back_firstpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'itim';
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 0px;
+    top: 10px;
+    white-space: nowrap;
+    background: #1A7FC1;
+    border-radius: 15px;
+}
+
+.back_firstpage:hover{
+    background-color: bisque;
+    color: black;
+}
