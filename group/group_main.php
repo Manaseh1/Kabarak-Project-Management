@@ -1,13 +1,13 @@
 <?php
 session_start();
 if(empty($_SESSION['role'])){
-    header("Location: login.php?msg=You have no role");
+    header("Location: ../login.php?msg=You have no role");
 }
 else if(($_SESSION['role'])!=='group'){
-    header("Location: login.php?msg=You have no access");
+    header("Location: ../login.php?msg=You have no access");
 }
 // if(empty($_SESSION['role'])){
-//     header("Location: login.php?msg=You have no role");
+//     header("Location: ../login.php?msg=You have no role");
 // }
 ?><!DOCTYPE html>
 <html lang="en">
@@ -35,7 +35,7 @@ else if(($_SESSION['role'])!=='group'){
         <!-- <a href="#download">Upload Document</a> -->
     
         <a href="#link">Project Link</a>
-        <a href="logout.php">Log Out
+        <a href="../logout.php">Log Out
 
         </a>
     </div>

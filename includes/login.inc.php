@@ -33,7 +33,7 @@ if(isset($_POST['login'])){
                         $_SESSION['uname']=$row['reg_no'];
                         $_SESSION['role']=$row['role'];
                         if($row['role']=='student'){
-                            header('Location: ../personal/personal_main.php?success=welcome student');
+                            header('Location: ../Personal/personal_main.php?success=welcome student');
                         }
                         if($row['role']=='lecturer'){
                             header('Location: ../Lecturer/html/lec_main.php?success=welcome Lecturer');

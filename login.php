@@ -53,9 +53,10 @@ echo "<br>"
 		  </div>
 		 
 		  <button type="submit" 
-		          class="btn btn-primary" name="login">LOGIN</button>
+		          class="btn btn-primary" name="login">LOGIN</button><br>
+		  <p>Not signed up?<a href="signup.php">Click here</a></p>
 		</form>
-		
+	
       </div>
 
 </body>

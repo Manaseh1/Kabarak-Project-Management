@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['upload'])){
-    include ("includes/dbh.inc.php");
+    include ("../includes/dbh.inc.php");
     $file = $_FILES['file'];
     $fileName=$file['name'];
     $fileTmpName=$file['tmp_name'];

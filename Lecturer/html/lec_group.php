@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(empty($_SESSION['role'])){
-    header("Location: login.php?msg=You have no role");
+    header("Location: ../../login.php?msg=You have no role");
 }
 else if(($_SESSION['role'])!=='lecturer'){
     header("Location: ../../login.php?msg=You have no access");

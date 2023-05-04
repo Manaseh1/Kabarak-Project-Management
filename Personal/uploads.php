@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['upload'])){
-    include ("includes/dbh.inc.php");
+    include ("../includes/dbh.inc.php");
     $file = $_FILES['file'];
     $fileName=$file['name'];
     $fileTmpName=$file['tmp_name'];
@@ -17,7 +17,7 @@ if(isset($_POST['upload'])){
         if($fileError===0){
             if($fileSize<50000000){
                 $fileNameNew = (uniqid('',true)).".".$fileActualExt;
-                $fileDestination='uploads/'.$fileNameNew;
+                $fileDestination='../uploads/'.$fileNameNew;
                 session_start();
                 $stud_name=$_SESSION['name'];
                 $stud_reg_no=$_SESSION['uname'];
@@ -42,15 +42,4 @@ if(isset($_POST['upload'])){
 }
 else{
     echo "Error";
-}
-
-//Project title
-
-if(isset($_POST['submit'])){
-    $project_title =$_POST['project_title'];
-    $stud_reg_no =$_POST['stud_reg_no'];
-    $sql = "";
-}
-else{
-    header ('Location: personal_main.php?error="not submitted"');
 }
